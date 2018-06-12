@@ -1,0 +1,1 @@
+/** * 快速排序 * @Author:zhenyuan * @Date:Created in 22:12 2018/6/12 */public class QuickSort {    public static void main(String[] args){        int[] a = {2,3,1,6,4,36,7,5,56,43,12,14,50,88};        new QuickSort().quickSort(a);        for (int i=0;i<a.length;i++){            System.out.print(a[i]+" ");        }    }    public void quickSort(int[] a){    }}
